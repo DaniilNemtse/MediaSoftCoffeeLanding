@@ -1,0 +1,272 @@
+.rounded-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 16px;
+    height: 60px;
+    width: 225px;
+    border-radius: 32px;
+    background-color: #1B1B1D;
+    color: white;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.colored-container {
+    background-color: #EEEFF1;
+}
+
+.app-promo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin: 36px;
+}
+
+.app-promo__title {
+    font-family: "Jost", sans-serif;
+    font-weight: 800;
+    font-size: 112px;
+    line-height: 1.2;
+    overflow-y: hidden;
+    color: #1B1B1D;
+}
+
+.app-promo__subtitle {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #64646A;
+    padding-top: 16px;
+}
+
+.app-promo__menu {
+    padding-top: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.app-promo__text-button {
+    text-decoration: underline;
+    margin-left: 24px;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #1B1B1D;
+}
+
+.app-promo__image {
+    width: 680px;
+}
+
+.explore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore__title {
+    margin-top: 48px;
+    font-family: "Jost", sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+    color: #1B1B1D;
+}
+
+.explore__subtitle {
+    margin-top: 8px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #64646A
+}
+
+.explore__cards-container {
+    margin: 24px 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.explore__card {
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+    margin: 0 24px;
+}
+
+.explore__card:first-child {
+    padding-left: 0;
+}
+
+.explore__card-title {
+    font-family: "Jost", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: #1B1B1D;
+}
+
+.explore__card-subtitle {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #64646A;
+}
+
+.explore__card-image {
+    margin-top: 16px;
+    width: 150px;
+    margin: 48px;
+    align-self: center;
+}
+
+.center {
+    align-self: center;
+}
+
+.order {
+    margin: 24px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order__image {
+    height: 470px;
+    width: 680px;
+}
+
+.order__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.order__title {
+    font-family: "Jost", sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 1;
+    overflow-y: hidden;
+    color: #1B1B1D;
+}
+
+.order__subtitle {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 24px;
+    color: #64646A;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews__title {
+    font-family: "Jost", sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+    margin-bottom: 16px;
+    align-self: center;
+    text-align: center;
+    line-height: 1;
+    overflow-y: hidden;
+}
+
+.reviews__overview {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews__mark {
+    font-family: "Jost", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-right: 16px;
+    color: #1B1B1D
+}
+
+.reviews__stars-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.reviews__star {
+    margin-right: 8px;
+}
+
+.reviews__counter {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #64646A
+}
+
+.reviews__swiper-container {
+    margin-top: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.reviews__card {
+    max-width: 500px;
+}
+
+.reviews__swiper-button {
+    background-color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.reviews__card-image {
+    border-radius: 8px 8px 0 0;
+    height: 324px;
+    filter: grayscale(100%);
+}
+
+.reviews__card-text-container {
+    margin: 20px;
+}
+
+.reviews__card-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.reviews__card-name {
+    font-family: "Jost", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #1B1B1D;
+    margin-right: 20px;
+}
+
+.reviews__card-explanation {
+    margin-top: 20px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    max-width: 400px;
+    color: #1B1B1D;
+}
+
+.mirrored {
+    transform: scaleX(-1);
+}

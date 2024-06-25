@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 100px;
+}
+
+.header__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__logo {
+    height: 50px;
+}
+
+.header__menu-item {
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 32px;
+}
+
+.header_cart {
+    background-color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.header_button {
+    margin-left: 16px;
+    font-size: 15px;
+}
